@@ -11,7 +11,7 @@ public class QuickSort {
         int j = right;
 
 
-//递归调用肯定有一个结束条件，而这个结束条件就是在内部判断开始前判断left与right.最后结束的时候子数组大小为1
+//递归调用肯定有一个结束条件，而这个结[v束条件就是在内部判断开始前判断left与right.最后结束的时候子数组大小为1
         if (left >= right) {
             return;
         }
